@@ -24,7 +24,7 @@
                 </div>
                 <div
                     class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-primary-600 transition-all text-sm sm:p-4"
+                    <a target="_blank" rel="noopener noreferrer" class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-primary-600 transition-all text-sm sm:p-4"
                        href="https://mateline.ru">
                         View
                     </a>
@@ -48,7 +48,7 @@
                 </div>
                 <div
                     class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-primary-600 transition-all text-sm sm:p-4"
+                    <a target="_blank" rel="noopener noreferrer" class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-primary-600 transition-all text-sm sm:p-4"
                        href="https://unimedgroup.ru">
                         View
                     </a>
@@ -72,7 +72,7 @@
                 </div>
                 <div
                     class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-primary-600 transition-all text-sm sm:p-4"
+                    <a target="_blank" rel="noopener noreferrer" class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-primary-600 transition-all text-sm sm:p-4"
                        href="https://atkteplogaz.ru">
                         View
                     </a>
