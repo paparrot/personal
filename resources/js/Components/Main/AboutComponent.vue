@@ -13,7 +13,7 @@ import "@/../images/about.jpg"
         <!-- Grid -->
         <div class="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
             <div class="lg:col-span-1">
-                <h2 class="font-bold text-2xl md:text-3xl text-gray-800 dark:text-gray-200">
+                <h2 class="font-bold text-2xl md:text-3xl text-gray-800">
                     Who am I?
                 </h2>
                 <p class="mt-2 md:mt-4 text-gray-500">
@@ -27,10 +27,10 @@ import "@/../images/about.jpg"
                     <!-- Icon Block -->
                     <div class="flex gap-x-5">
                         <div class="grow">
-                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                            <h3 class="text-lg font-semibold text-gray-800 ">
                                 Strong knowledge
                             </h3>
-                            <p class="mt-1 text-gray-600 dark:text-gray-400">
+                            <p class="mt-1 text-gray-600">
                                 Confident theoretical knowledge and practical experience in web application development
                             </p>
                         </div>
@@ -40,10 +40,10 @@ import "@/../images/about.jpg"
                     <!-- Icon Block -->
                     <div class="flex gap-x-5">
                         <div class="grow">
-                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                            <h3 class="text-lg font-semibold text-gray-800 ">
                                 Modern technologies stack
                             </h3>
-                            <p class="mt-1 text-gray-600 dark:text-gray-400">
+                            <p class="mt-1 text-gray-600">
                                 I use only modern and of course stable technologies that recommend themselves as useful
                             </p>
                         </div>
@@ -53,10 +53,10 @@ import "@/../images/about.jpg"
                     <!-- Icon Block -->
                     <div class="flex gap-x-5">
                         <div class="grow">
-                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                            <h3 class="text-lg font-semibold text-gray-800 ">
                                 Attentive to details
                             </h3>
-                            <p class="mt-1 text-gray-600 dark:text-gray-400">
+                            <p class="mt-1 text-gray-600">
                                 I am interested in doing the work efficiently, and not to redo it
                             </p>
                         </div>
@@ -66,10 +66,10 @@ import "@/../images/about.jpg"
                     <!-- Icon Block -->
                     <div class="flex gap-x-5">
                         <div class="grow">
-                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                            <h3 class="text-lg font-semibold text-gray-800">
                                 Always available
                             </h3>
-                            <p class="mt-1 text-gray-600 dark:text-gray-400">
+                            <p class="mt-1 text-gray-600">
                                 Always available to clarify details and make edits
                             </p>
                         </div>
