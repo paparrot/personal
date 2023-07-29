@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Livewire\Pages\About;
+use App\Http\Livewire\Pages\Home;
+use App\Http\Livewire\Pages\Project\ProjectList;
+use App\Http\Livewire\Pages\Project\ProjectShow;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'welcome')->name('home');
-Route::view('/about', 'about')->name('about');
-Route::view('/projects', 'projects')->name('projects');
+Route::get('/', Home::class)->name('home');
+Route::get('/about', About::class)->name('about');
+Route::get('/projects', ProjectList::class)->name('projects.list');
+Route::get('/projects/{project:slug}', ProjectShow::class)->name('projects.show');
+

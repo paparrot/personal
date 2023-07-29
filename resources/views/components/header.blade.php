@@ -17,7 +17,7 @@
                 </li>
                 <li>
                     <a
-                        href="{{ route('projects') }}"
+                        href="{{ route('projects.list') }}"
                         @class(['text-primary' => Route::is('projects')])
                     >
                         Projects

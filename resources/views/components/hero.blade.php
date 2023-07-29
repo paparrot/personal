@@ -1,6 +1,6 @@
-<div class="hero h-[70vh]">
+<div class="hero min-h-[70vh]">
     <div class="hero-content flex-col justify-between lg:flex-row-reverse">
-        <img src="/images/hero.jpeg" class="w-full md:w-2/5 rounded-lg shadow-2xl" />
+        <img src="/images/hero.jpeg" alt="My photo" class="w-full md:w-2/5 rounded-lg shadow-2xl" />
         <div>
             <h1 class="text-5xl font-bold">Hey there 👋</h1>
             <p class="py-6">

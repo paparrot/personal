@@ -1,4 +1,4 @@
-<div class="container mx-auto py-28">
+<div class="container mx-auto px-5 md:py-14 lg:py-28">
     <div class="card card-bordered p-5 max-w-5xl mx-auto">
         <h2 class="text-4xl font-bold text-center mb-5">Contact me</h2>
         <form action="" class="space-y-5">
