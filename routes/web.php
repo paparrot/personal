@@ -4,6 +4,8 @@ use App\Http\Livewire\Pages\About;
 use App\Http\Livewire\Pages\Home;
 use App\Http\Livewire\Pages\Project\ProjectList;
 use App\Http\Livewire\Pages\Project\ProjectShow;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*

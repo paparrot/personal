@@ -3,5 +3,5 @@
 @section('content')
     <x-hero/>
     <livewire:components.project-list :projects="$projects"/>
-    <x-form/>
+    <livewire:components.contact-form />
 @endsection
