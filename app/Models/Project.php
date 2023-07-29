@@ -15,6 +15,8 @@ class Project extends Model
         'title',
         'slug',
         'preview_path',
+        'link',
+        'code_link',
         'summary',
         'body'
     ];

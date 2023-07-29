@@ -21,11 +21,19 @@ class ProjectResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('title'),
-                Forms\Components\TextInput::make('slug'),
-                Forms\Components\TextInput::make('summary'),
+                Forms\Components\TextInput::make('title')
+                    ->required(),
+                Forms\Components\TextInput::make('slug')
+                    ->required(),
+                Forms\Components\TextInput::make('link')
+                    ->required(),
+                Forms\Components\TextInput::make('code_link'),
+                Forms\Components\TextInput::make('summary')
+                    ->required(),
                 Forms\Components\FileUpload::make('preview_path'),
-                Forms\Components\Textarea::make('body')
+                Forms\Components\Grid::make(1)->schema([
+                    Forms\Components\RichEditor::make('body')
+                ])
             ]);
     }
 

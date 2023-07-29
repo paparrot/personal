@@ -14,6 +14,8 @@ return new class extends Migration {
             $table->uuid('id')->primary();
             $table->string('title')->unique();
             $table->string('slug')->unique();
+            $table->string('link');
+            $table->string('code_link')->nullable();
             $table->string('summary');
             $table->string('preview_path')->nullable();
             $table->text('body')->nullable();
