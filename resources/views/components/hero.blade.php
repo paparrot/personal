@@ -7,8 +7,8 @@
                 I am a backend developer based in Montenegro
             </p>
             <div class="w-full flex gap-3">
-                <a href="{{ asset('/docs/Klim_Subbotin_Backend_PHP.pdf') }}" download class="w-1/2 btn btn-primary">Resume</a>
-                <a href="https://github.com/paparrot" class="w-1/2 btn btn-outline">Github</a>
+                <a href="{{ asset('/docs/Klim_Subbotin_Backend_PHP.pdf') }}" target="_blank" rel="noreferrer noopener" class="w-1/2 btn btn-primary">Resume</a>
+                <a href="https://github.com/paparrot" class="w-1/2 btn btn-outline" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
         </div>
     </div>
