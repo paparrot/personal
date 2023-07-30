@@ -30,7 +30,9 @@ class ProjectResource extends Resource
                 Forms\Components\TextInput::make('code_link'),
                 Forms\Components\TextInput::make('summary')
                     ->required(),
-                Forms\Components\FileUpload::make('preview_path'),
+                Forms\Components\FileUpload::make('preview_path')
+                    ->directory('images')
+                    ->disk('public'),
                 Forms\Components\Grid::make(1)->schema([
                     Forms\Components\RichEditor::make('body')
                 ])
