@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -11,6 +12,15 @@ use Spatie\Translatable\HasTranslations;
 class Project extends Model
 {
     use HasFactory, HasUuids, SoftDeletes, HasTranslations;
+
+    protected static function booted()
+    {
+        static::addGlobalScope('localized', function (Builder $builder) {
+            $language = app()->getLocale();
+            return $builder->whereNotNull("title->$language")
+                ->whereNotNull("summary->$language");
+        });
+    }
 
     public $translatable = [
         'title',
@@ -27,4 +37,6 @@ class Project extends Model
         'summary',
         'body'
     ];
+
+
 }

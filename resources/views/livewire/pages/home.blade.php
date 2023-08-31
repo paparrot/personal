@@ -2,6 +2,8 @@
 
 @section('content')
     <x-hero/>
-    <livewire:components.project-list :projects="$projects"/>
+    @if($projects->count())
+        <livewire:components.project-list :projects="$projects"/>
+    @endif
     <livewire:components.contact-form/>
 @endsection

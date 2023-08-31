@@ -98,6 +98,11 @@ return [
 
     'fallback_locale' => 'en',
 
+    'available_locales' => [
+        'en',
+        'ru'
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Faker Locale
