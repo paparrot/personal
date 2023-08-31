@@ -1,9 +1,9 @@
 <?php
 
-use App\Http\Livewire\Pages\About;
-use App\Http\Livewire\Pages\Home;
-use App\Http\Livewire\Pages\Project\ProjectList;
-use App\Http\Livewire\Pages\Project\ProjectShow;
+use App\Livewire\Pages\About;
+use App\Livewire\Pages\Home;
+use App\Livewire\Pages\Project\ProjectList;
+use App\Livewire\Pages\Project\ProjectShow;
 use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
@@ -19,8 +19,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', Home::class)->name('home');
-Route::get('/about', About::class)->name('about');
-Route::get('/projects', ProjectList::class)->name('projects.list');
-Route::get('/projects/{project:slug}', ProjectShow::class)->name('projects.show');
+Route::prefix('{locale}/')->group(function() {
+    Route::get('/', Home::class)->name('home');
+    Route::get('/about', About::class)->name('about');
+    Route::get('/projects', ProjectList::class)->name('projects.list');
+    Route::get('/projects/{project:slug}', ProjectShow::class)->name('projects.show');
+});
 

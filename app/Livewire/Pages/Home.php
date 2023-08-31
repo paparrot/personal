@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire\Pages;
+namespace App\Livewire\Pages;
 
 use App\Models\Project;
 use Illuminate\Support\Collection;
