@@ -1,0 +1,13 @@
+{
+    "hero.title": "Здраво свима",
+    "hero.subtitle": "Jа сам backend програмер коji живи у Црной Гори",
+    "hero.resume": "Резиме",
+    "projects": "Проjекти",
+    "projects.view": "Погледајте пројекат",
+    "contacts": "Контакти",
+    "contacts.name": "Име",
+    "contacts.message": "Порука",
+    "contacts.message.placeholder": "Упишите вашу поруку",
+    "submit": "Пошаљите",
+    "footer.copyright": "Ауторска права © 2020-:year - Cајт је направљен с ❤\uFE0F и Laravel рукама"
+}

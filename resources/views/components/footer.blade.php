@@ -1,6 +1,6 @@
 <footer class="footer footer-center p-4 bg-base-300 text-base-content">
     <div>
-        <p>Copyright © 2020-{{ now()->year }} - Build with Laravel and ❤️ by
+        <p>{{ __("footer.copyright", ['year' => now()->year]) }}
             <a
                 href="https://github.com/paparrot"
                 target="_blank"

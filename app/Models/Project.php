@@ -13,7 +13,7 @@ class Project extends Model
 {
     use HasFactory, HasUuids, SoftDeletes, HasTranslations;
 
-    protected static function booted()
+    protected static function booted(): void
     {
         static::addGlobalScope('localized', function (Builder $builder) {
             $language = app()->getLocale();
@@ -25,7 +25,7 @@ class Project extends Model
     public $translatable = [
         'title',
         'summary',
-        'body'
+        'body',
     ];
 
     protected $fillable = [

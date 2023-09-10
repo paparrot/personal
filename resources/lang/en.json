@@ -1,0 +1,13 @@
+{
+    "hero.title": "Hey there",
+    "hero.subtitle": "I am a backend developer based in Montenegro",
+    "hero.resume": "Resume",
+    "projects": "Projects",
+    "projects.view": "View project",
+    "contacts": "Contacts",
+    "contacts.name": "Name",
+    "contacts.message": "Message",
+    "contacts.message.placeholder": "Type your message",
+    "submit": "Submit",
+    "footer.copyright": "Copyright © 2020-:year - Build with Laravel and ❤\uFE0F by"
+}

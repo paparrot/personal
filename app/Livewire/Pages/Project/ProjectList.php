@@ -13,9 +13,7 @@ class ProjectList extends Component
 
     public function mount()
     {
-        $locale = app()->getLocale();
-        $this->projects = Project::where("title->$locale", '!=', null)->get();
-
+        $this->projects = Project::all();
     }
 
     public function render()

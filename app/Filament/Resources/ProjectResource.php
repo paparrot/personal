@@ -11,6 +11,7 @@ use Filament\Resources\Concerns\Translatable;
 use Filament\Resources\Resource;
 use Filament\Tables\Table;
 use Filament\Tables;
+use Illuminate\Database\Eloquent\Builder;
 
 class ProjectResource extends Resource
 {
@@ -20,6 +21,11 @@ class ProjectResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()->withoutGlobalScopes()->withoutTrashed();
+    }
+
     public static function form(Form $form): Form
     {
         return $form
@@ -27,6 +33,7 @@ class ProjectResource extends Resource
                 Forms\Components\TextInput::make('title')
                     ->required(),
                 Forms\Components\TextInput::make('slug')
+                    ->unique('projects', 'slug')
                     ->required(),
                 Forms\Components\TextInput::make('link')
                     ->required(),

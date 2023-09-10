@@ -15,7 +15,7 @@
                     target="_blank"
                     rel="noreferrer noopener"
                     class="btn btn-primary w-1/2"
-            >View project</a>
+            >{{ __("projects.view") }}</a>
             @if($project->code_link)
                 <a
                         href="{{ $project->code_link }}"

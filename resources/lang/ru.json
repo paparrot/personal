@@ -1,0 +1,13 @@
+{
+    "hero.title": "Всем привет",
+    "hero.subtitle": "Я бэкенд разработчик, живущий в Черногории",
+    "hero.resume" : "Резюме",
+    "projects": "Проекты",
+    "projects.view": "Посмотреть проект",
+    "contacts": "Контакты",
+    "contacts.name": "Имя",
+    "contacts.message": "Сообщение",
+    "contacts.message.placeholder": "Введите ваше сообщение",
+    "submit": "Отправить",
+    "footer.copyright": "Авторские права © 2020-:year - Сайт сделан с ❤\uFE0F и Laravel руками"
+}
