@@ -33,7 +33,6 @@ class ProjectResource extends Resource
                 Forms\Components\TextInput::make('title')
                     ->required(),
                 Forms\Components\TextInput::make('slug')
-                    ->unique('projects', 'slug')
                     ->required(),
                 Forms\Components\TextInput::make('link')
                     ->required(),
