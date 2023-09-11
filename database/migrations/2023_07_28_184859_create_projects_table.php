@@ -12,11 +12,11 @@ return new class extends Migration {
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->string('title');
+            $table->text('title');
             $table->string('slug');
             $table->string('link');
             $table->string('code_link')->nullable();
-            $table->string('summary');
+            $table->text('summary');
             $table->string('preview_path')->nullable();
             $table->text('body')->nullable();
             $table->timestamps();
